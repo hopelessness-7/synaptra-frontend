@@ -13,5 +13,15 @@ export const routes = [
     path: '/register',
     name: 'register',
     component: () => import('../views/auth/Register.vue'),
-  }
+  },
+  {
+    path: '/projects',
+    name: 'projects',
+    component: () => import('../views/projects/Projects.vue'),
+  },
+  {
+    path: '/boards',
+    name: 'boards',
+    component: () => import('../views/boards/Boards.vue'),
+  },
 ]

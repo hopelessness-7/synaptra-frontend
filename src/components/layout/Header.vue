@@ -17,9 +17,7 @@
         {{ time }}
       </div>
 
-      <button class="bg-indigo-500 hover:bg-indigo-600 text-white text-sm px-4 py-2 rounded-lg">
-        Start Work
-      </button>
+      <button class="btn-secondary btn-sm">Start Work</button>
 
       <div class="relative">
         <button
